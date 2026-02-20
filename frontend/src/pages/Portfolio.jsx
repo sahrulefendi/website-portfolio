@@ -352,30 +352,6 @@ const Portfolio = () => {
               </Card>
             ))}
           </div>
-
-          {/* Testimonials */}
-          <div className="mt-16">
-            <h3 className="text-3xl font-bold text-slate-900 text-center mb-8">Client Testimonials</h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              {testimonials.map((testimonial) => (
-                <Card key={testimonial.id} className="border-slate-200">
-                  <CardContent className="pt-6">
-                    <div className="flex gap-1 mb-4">
-                      {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                      ))}
-                    </div>
-                    <p className="text-slate-600 text-sm mb-4 italic">"{testimonial.content}"</p>
-                    <div>
-                      <p className="font-semibold text-slate-900">{testimonial.name}</p>
-                      <p className="text-sm text-slate-500">{testimonial.position}</p>
-                      <p className="text-sm text-slate-500">{testimonial.company}</p>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
