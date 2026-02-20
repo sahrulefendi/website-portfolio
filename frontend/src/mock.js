@@ -179,8 +179,6 @@ export const testimonials = [
 ];
 
 export const certifications = [
-  "Odoo Certified Developer",
-  "Python Programming Professional",
-  "PostgreSQL Database Administration",
-  "Agile Project Management"
+  "Junior Mobile Programmer",
+  "Junior Web Developer",
 ];
