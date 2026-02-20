@@ -2,7 +2,7 @@
 
 export const personalInfo = {
   name: "Sahrul Efendi",
-  title: "ERP Software Engineer, Odoo Developer",
+  title: "ERP Software Engineer",
   email: "sahrulefendi102@gmail.com",
   location: "Indonesia",
   yearsExperience: 4,
