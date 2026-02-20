@@ -15,7 +15,7 @@ export const projects = [
     id: 1,
     title: "Client Management System",
     description: "Comprehensive CRM solution built on Odoo framework to manage client relationships, track interactions, and automate sales workflows. Implemented custom modules for lead scoring and automated follow-ups.",
-    technologies: ["Odoo 16", "Python", "PostgreSQL", "JavaScript", "XML"],
+    technologies: ["Odoo 11", "Python", "PostgreSQL", "JavaScript", "XML"],
     category: "CRM",
     highlights: [
       "Automated client onboarding workflow",
@@ -27,12 +27,12 @@ export const projects = [
   {
     id: 2,
     title: "Training Management System",
-    description: "Full-featured TMS developed to handle course scheduling, instructor management, student enrollment, and certification tracking. Integrated with payment gateway for seamless course registration.",
-    technologies: ["Odoo 15", "Python", "PostgreSQL", "REST API", "JavaScript"],
-    category: "Education",
+    description: "Full-featured TMS developed to handle course scheduling, training management, enrollment, and event tracking. Integrated with payment gateway for seamless course registration.",
+    technologies: ["Odoo 11", "Python", "PostgreSQL", "REST API", "JavaScript"],
+    category: "Course",
     highlights: [
-      "Course catalog and scheduling module",
-      "Certificate generation automation",
+      "Training catalog and scheduling module",
+      "SSG Integration",
       "Payment gateway integration",
       "Attendance tracking system"
     ]
@@ -41,7 +41,7 @@ export const projects = [
     id: 3,
     title: "Volunteer & Donation Management",
     description: "Non-profit organization platform managing volunteer coordination, donation tracking, and event management. Features include donor portal, volunteer scheduling, and impact reporting.",
-    technologies: ["Odoo 16", "Python", "PostgreSQL", "XML", "QWeb"],
+    technologies: ["Odoo 13", "Python", "PostgreSQL", "XML", "QWeb"],
     category: "Non-Profit",
     highlights: [
       "Volunteer scheduling and coordination",
@@ -53,14 +53,15 @@ export const projects = [
   {
     id: 4,
     title: "Enterprise Resource Planning System",
-    description: "End-to-end ERP implementation for manufacturing company covering inventory, procurement, sales, accounting, and HR modules. Customized workflows to match client's business processes.",
-    technologies: ["Odoo 15", "Python", "PostgreSQL", "JavaScript", "XML"],
+    description: "End-to-end ERP implementation for non-profit organization covering inventory, procurement, assets, accounting, and Facility Management, Transport modules. Customized workflows to match client's business processes.",
+    technologies: ["Odoo 13", "Python", "PostgreSQL", "JavaScript", "XML"],
     category: "Manufacturing",
     highlights: [
       "Multi-warehouse inventory management",
-      "Production planning module",
-      "Financial accounting integration",
-      "HR and payroll automation"
+      "Transport planning module",
+      "Third-party integration",
+      "Assets Management",
+      "Facility Management"
     ]
   }
 ];
@@ -73,17 +74,18 @@ export const skills = {
     { name: "REST API", level: 80 }
   ],
   frontend: [
-    { name: "JavaScript", level: 85 },
+    { name: "JavaScript", level: 70 },
     { name: "XML/QWeb", level: 90 },
-    { name: "jQuery", level: 75 },
-    { name: "Bootstrap", level: 80 }
+    { name: "jQuery", level: 70 },
+    { name: "Bootstrap", level: 50 }
   ],
   odooModules: [
-    "Sales", "CRM", "Inventory", "Accounting", "HR", "Manufacturing",
-    "Purchase", "Project", "Custom Module Development", "Website Builder"
+    "Sales", "CRM", "Inventory", "Accounting", "Events", "Manufacturing",
+    "Purchase", "Project", "Custom Module Development", "Website Builder", "Documents" ,
+    "Assets",  "Facility Management", "POS"
   ],
   tools: [
-    "Git/GitHub", "Docker", "Linux", "Nginx", "VS Code", "PyCharm"
+    "Subversion", "Docker", "Linux", "Nginx", "VS Code", "PyCharm"
   ]
 };
 
@@ -137,16 +139,16 @@ export const services = [
 export const experience = [
   {
     id: 1,
-    year: "2021 - Present",
-    position: "ERP Software Engineer",
-    company: "Tech Solutions Inc.",
+    year: "2024 - Present",
+    position: "Project Lead",
+    company: "PT Tigernix Solutions Indonesia.",
     description: "Leading Odoo implementation projects and developing custom modules for diverse clients across multiple industries."
   },
   {
     id: 2,
-    year: "2020 - 2021",
-    position: "Junior Odoo Developer",
-    company: "Digital Systems Co.",
+    year: "2022 - 2024",
+    position: "Software Engineer",
+    company: "PT Tigernix Solutions Indonesia",
     description: "Contributed to ERP development projects, focusing on module customization and client requirement analysis."
   }
 ];
