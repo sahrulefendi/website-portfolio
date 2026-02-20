@@ -4,7 +4,7 @@ export const personalInfo = {
   name: "Sahrul Efendi",
   title: "ERP Software Engineer",
   email: "sahrulefendi102@gmail.com",
-  location: "Indonesia",
+  location: "Batam, Indonesia",
   yearsExperience: 4,
   bio: "Passionate ERP Software Engineer with 4 years of expertise in Odoo development and implementation. Specialized in building custom business solutions that streamline operations and drive digital transformation. Proven track record in delivering complex ERP projects across various industries.",
   tagline: "Building Intelligent ERP Solutions with Odoo"
