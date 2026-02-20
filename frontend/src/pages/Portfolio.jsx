@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../co
 import { Badge } from '../components/ui/badge';
 import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
-import { Code2, Mail, MapPin, Briefcase, Award, Layers, Users, CheckCircle2, Star, Github, Linkedin, ExternalLink, ChevronRight, Terminal, Database, Layout, Settings } from 'lucide-react';
-import { personalInfo, projects, skills, services, experience, testimonials, certifications } from '../mock';
+import { Code2, Mail, MapPin, Briefcase, Award, Layers, Users, CheckCircle2, Github, Linkedin, ExternalLink, ChevronRight, Terminal, Database, Layout, Settings } from 'lucide-react';
+import { personalInfo, projects, skills, services, experience, certifications } from '../mock';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
